@@ -7,7 +7,8 @@ main {
 .wavy {
   background-image: url(./images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
-  padding: 10% 30%;
+  background-color: hsl(225, 100%, 94%);
+  padding: 100px 400px;
 }
 
 .medium {
@@ -22,6 +23,7 @@ main {
   font-family: "Red Hat Display", sans-serif;
   font-weight: 700;
   font-size: 28px;
+  padding-top: 20px;
 }
 
 .black-bold {
@@ -40,18 +42,17 @@ img {
 .textbox {
   background-color: white;
   border-radius: 20px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .banner {
   background-image: url(./images/illustration-hero.svg);
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
-  padding: 120px 150px;
+  background-position: center;
+  height: 300px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  height: auto;
 }
 
 .music-plan {
@@ -83,6 +84,7 @@ img {
   color: #717FA6;
   font-family: "Red Hat Display", sans-serif;
   cursor: pointer;
+  padding-top: 30px;
 }
 .cancel:active {
   color: #1F2E55;
@@ -95,7 +97,63 @@ img {
   font-family: "Red Hat Display", sans-serif;
   font-weight: 700;
   border: none;
+  filter: drop-shadow(0px 15px 10px #BDB8F4);
 }
 .button-payment:active {
   background-color: #698DFF;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 767.98px) {
+  .wavy {
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 10px;
+  }
+  .music-plan {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+  .wavy {
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 160px;
+  }
+  .music-plan {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .music-box-spacing {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -7vh;
+  }
+}
+@media (min-width: 991.98px) and (max-width: 1199.98px) {
+  .wavy {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10% 25%;
+  }
+  .music-plan {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
 }/*# sourceMappingURL=index.css.map */
