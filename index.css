@@ -7,18 +7,21 @@ main {
 .wavy {
   background-image: url(./images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
-  padding: 30%;
+  padding: 10% 30%;
 }
 
 .medium {
   font-family: "Red Hat Display", sans-serif;
   font-weight: 500;
-  font-size: 13px;
+  font-size: 16px;
+  margin: 0px 50px;
+  color: #717FA6;
 }
 
 .bold {
   font-family: "Red Hat Display", sans-serif;
   font-weight: 700;
+  font-size: 28px;
 }
 
 .black-bold {
@@ -43,8 +46,56 @@ img {
 .banner {
   background-image: url(./images/illustration-hero.svg);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  padding: 150px 10px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  padding: 120px 150px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: auto;
+}
+
+.music-plan {
+  padding: 25px 70px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #F7F9FF;
+}
+
+.music-box-spacing {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: -7vh;
+}
+
+.change {
+  color: #382AE1;
+  -webkit-text-decoration: underline 1px #382AE1;
+          text-decoration: underline 1px #382AE1;
+  font-family: "Red Hat Display", sans-serif;
+  cursor: pointer;
+}
+.change:active {
+  color: #766CF1;
+  text-decoration: none;
+}
+
+.cancel {
+  color: #717FA6;
+  font-family: "Red Hat Display", sans-serif;
+  cursor: pointer;
+}
+.cancel:active {
+  color: #1F2E55;
+}
+
+.button-payment {
+  padding: 20px 0px;
+  color: white;
+  background-color: #382AE1;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  border: none;
+}
+.button-payment:active {
+  background-color: #698DFF;
 }/*# sourceMappingURL=index.css.map */
