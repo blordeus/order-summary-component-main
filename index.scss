@@ -44,7 +44,7 @@ img {
 .textbox {
     background-color: white;
     border-radius: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 
@@ -76,7 +76,7 @@ img {
     text-decoration: underline 1px #382AE1;
     font-family: $font-stack;
     cursor: pointer;
-      &:active{
+      &:hover{
         color: #766CF1;
         text-decoration: none;
       }
@@ -86,20 +86,20 @@ img {
     color: #717FA6;
     font-family: $font-stack;
     cursor: pointer;
-    padding-top: 30px;
-      &:active {
+    padding-top: 20px;
+      &:hover {
         color: #1F2E55;
       }
 }
 .button-payment { 
-    padding: 20px 0px;
+    padding: 4% 26%;
     color: white;
     background-color: #382AE1;
     font-family: $font-stack;
     font-weight: 700;
     border: none;
     filter: drop-shadow(0px 15px 10px #BDB8F4);
-      &:active {
+      &:hover {
         background-color: #698DFF;
       }
 }
@@ -123,9 +123,18 @@ img {
         background-position: center;
         padding: 40px 10px;
     }
+    .button-payment { 
+        padding: 4% 25%;
+    }
     .music-plan{ 
-        margin-left: 40px;
-        margin-right: 40px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .cancel {
+        padding-top: 5px;
+    }
+    .textbox {
+        padding-bottom: 25px;
     }
   }
 
@@ -136,7 +145,10 @@ img {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        padding: 40px 160px;
+        padding: 40px 17%;
+    }
+ .button-payment { 
+        padding: 4% 25%;
     }
     .music-plan{ 
         margin-left: 60px;
