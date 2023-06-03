@@ -4,12 +4,11 @@ main {
   margin: 0;
 }
 
-.wavy{
-    background-image: url(./images/pattern-background-desktop.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-color: hsl(225, 100%, 94%);
-    padding: 100px 400px;
+.wavy {
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  padding: 100px 400px;
 }
 
 .medium {
